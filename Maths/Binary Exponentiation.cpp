@@ -1,11 +1,11 @@
-long long power(long long a, long long b) {
+long long power(long long x, long long y) {
     long long result = 1;
-    while (b > 0) {
-        if (b & 1) {
-            result = result * a;
+    while (y > 0) {
+        if (y & 1) {
+            result = result * x;
         }
-        a = a * a;
-        b >>= 1;
+        x = x * x;
+        y >>= 1;
     }
     return result;
 }
