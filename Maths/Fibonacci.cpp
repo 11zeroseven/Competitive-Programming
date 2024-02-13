@@ -5,7 +5,7 @@ long long fib(long long n) {
   return round(pow(phi, n) / sqrt(5)); 
 } 
 
-// in log(n) time and auxiliary space log(n) 
+// in log(n) time and auxiliary space log(n)
 
 void multiply(vector<vector<ll>>& F, vector<vector<ll>>& M) {
   ll x = F[0][0] * M[0][0] + F[0][1] * M[1][0];
