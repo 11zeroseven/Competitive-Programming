@@ -6,19 +6,8 @@ using namespace std;
 using namespace __gnu_pbds;
 
 #define ll long long
-#define st string
-#define eb emplace_back
-#define ppb pop_back
-#define all(x) x.begin(), x.end()
-#define sz(x) (long long) x.size()
-#define maxe(x) *max_element(x.begin(), x.end());
-#define mine(x) *min_element(x.begin(), x.end());
-#define sum(x) accumulate(x.begin(), x.end(), 0);
-#define set_bits __builtin_popcountll
 #define fastio ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 #define endl '\n'
-#define v vector<long long>
-#define vv vector<v>
 
 vector<ll> fac(n, 0); // only declare in case of inverse
 vector<ll> invfac(n, 0); // only declare in case of inverse
